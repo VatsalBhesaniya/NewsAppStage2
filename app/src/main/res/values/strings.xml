@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">News App Stage 2</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <string name="settings_sections_label">Sections</string>
+    <string name="settings_sections_key" translatable="false">sections</string>
+    <string name="settings_sections_default" translatable="false">world</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">newest</string>
+    <string name="settings_thumbnails_label">Thumbnail</string>
+    <string name="settings_thumbnails_key" translatable="false">thumbnail</string>
+    <string name="settings_thumbnails_default" translatable="false">Shown</string>
+    <string name="settings_thumbnails_hidden">Hidden</string>
+    <bool name="settings_thumbnails_checked">true</bool>
+    <string name="no_news">There is no news in this section.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="view_full_article">View full article</string>
+
+    <string-array name="sections_keys">
+        <item>World</item>
+        <item>Technology</item>
+        <item>Fashion</item>
+        <item>Business</item>
+        <item>Culture</item>
+        <item>Sports</item>
+        <item>Life and Style</item>
+        <item>Politics</item>
+    </string-array>
+
+    <string-array name="sections_values">
+        <item>world</item>
+        <item>technology</item>
+        <item>fashion</item>
+        <item>business</item>
+        <item>culture</item>
+        <item>sport</item>
+        <item>lifeandstyle</item>
+        <item>politics</item>
+    </string-array>
+
+    <string-array name="order_by_keys">
+        <item>Newest</item>
+        <item>Oldest</item>
+        <item>Relevance</item>
+    </string-array>
+
+    <string-array name="order_by_values">
+        <item>newest</item>
+        <item>oldest</item>
+        <item>relevance</item>
+    </string-array>
+
+</resources>

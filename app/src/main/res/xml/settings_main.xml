@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_sections_default"
+        android:entries="@array/sections_keys"
+        android:entryValues="@array/sections_values"
+        android:key="@string/settings_sections_key"
+        android:title="@string/settings_sections_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/order_by_keys"
+        android:entryValues="@array/order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label" />
+
+    <CheckBoxPreference
+        android:checked="true"
+        android:defaultValue="@string/settings_thumbnails_default"
+        android:key="@string/settings_thumbnails_key"
+        android:summaryOff="@string/settings_thumbnails_hidden"
+        android:summaryOn="@string/settings_thumbnails_default"
+        android:title="@string/settings_thumbnails_label" />
+
+</PreferenceScreen>
